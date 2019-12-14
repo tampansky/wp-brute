@@ -14,13 +14,13 @@ ua = open('sky.txt','rb').read().decode('utf8').splitlines()
 
 
 __banner__ = ('''%s
-  _ _ _ ___ ___| |_ ___ _ _| |_ ___ 
- | | | | . |___| . |  _| | |  _| -_| 
- |_____|  _|   |___|_| |___|_| |___| 
-       |_|                          
-%s[-]%s Wordpress massal brute force
+           _ _ _ ___ ___| |_ ___ _ _| |_ ___ 
+          | | | | . |___| . |  _| | |  _| -_| 
+          |_____|  _|   |___|_| |___|_| |___| 
+                |_|                          
+%s[+]%s Wordpress massal brute force
 %s[+]%s Author: %sTampansky%s 
-%s[=]%s Team: Black %sCoder%s Crush''' % (p,m,p,h,p,h,p,h,p,h,p))
+%s[+]%s Team: Black %sCoder%s Crush''' % (p,m,p,h,p,h,p,h,p,h,p,h,p,h,p,h,p,h,p,br,p))
 
 class Main():
     def __init__(self):
@@ -93,11 +93,6 @@ class Main():
                         print('%s[info] %sError gan ..' % (m,p))
                         continue
         quit('%s[%s@%s]%s selesai total %s save to found.txt' % (br,m,br,p,self.v))
-
-
-
-
-
 
 #___main___:
 Main()
