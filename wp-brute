@@ -1,0 +1,5 @@
+pkg install python2 -y
+pkg install python -y
+pip install requests
+pip2 install requests
+echo -e "Silahkan Ketik : python wp-brute.py"
