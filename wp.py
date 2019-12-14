@@ -14,10 +14,10 @@ ua = open('sky.txt','rb').read().decode('utf8').splitlines()
 
 
 __banner__ = ('''%s
-%s  _ _ _ ___ ___| |_ ___ _ _| |_ ___ %s
-%s | | | | . |___| . |  _| | |  _| -_| %s
-%s |_____|  _|   |___|_| |___|_| |___| %s
-%s       |_|                          %s
+  _ _ _ ___ ___| |_ ___ _ _| |_ ___ 
+ | | | | . |___| . |  _| | |  _| -_| 
+ |_____|  _|   |___|_| |___|_| |___| 
+       |_|                          
 %s[-]%s Wordpress massal brute force
 %s[+]%s Author: %sTampansky%s 
 %s[=]%s Team: Black %sCoder%s Crush''' % (p,m,p,h,p,h,p,h,p,h,p))
